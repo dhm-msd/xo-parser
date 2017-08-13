@@ -67,7 +67,14 @@ function handlePage(url,callback){
                     var bussLoc = "";
                     while (x <= bussArea.children.length - 1) {
                         if (bussArea.children[x].children[0]) {
-                            bussLoc += bussArea.children[x].children[0].data + " "
+                            bussLoc += bussArea.children[x].children[0].data
+                            if(x==0){
+                                bussLoc += ", "
+                            }else if(x==2){
+                                bussLoc += ", "
+                            }else{
+                                bussLoc += " "
+                            }
                         }
                         x = x + 2;
                     }
