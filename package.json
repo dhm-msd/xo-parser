@@ -1,0 +1,29 @@
+{
+  "name": "xo-parser",
+  "version": "1.0.0",
+  "description": "A convenient tool to parse entries from a listing site.",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhm-msd/xo-parser.git"
+  },
+  "keywords": [
+    "parser",
+    "xo-parser",
+    "listing-site-parser"
+  ],
+  "author": "dhm-msd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhm-msd/xo-parser/issues"
+  },
+  "homepage": "https://github.com/dhm-msd/xo-parser#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-xlsx": "^0.10.0",
+    "request": "^2.81.0"
+  }
+}
